@@ -1,0 +1,147 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+#head{
+    height: 70px;
+    max-width: 1200px;
+    min-width: 700px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 70px;
+}
+#ul-head{
+    height: 100%;
+}
+#ul-head li{
+    height: 100%;
+    float: left;
+
+    font-weight: 100;
+    color: #0a0a0a;
+    width: 33%;
+    text-align: center;
+    cursor: pointer;
+}
+#ul-head li:hover{
+    background-color: aliceblue;
+}
+#mainB,#mainA{
+    max-width: 1200px;
+    min-width: 700px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 85%;
+    text-align: center;
+}
+#mainB{
+    padding-top: 20px;
+}
+#Input-textarea{
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    height: 300px;
+    resize: none;
+    font-weight: 100;
+    color: #0a0a0a;
+    font-size: 24px;
+    outline: none;
+}
+#ul-Input{
+    font-weight: 100;
+    color: #0a0a0a;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+}
+#ul-Input li{
+    width: 50%;
+}
+.LiBtn{
+    cursor: pointer;
+    float: left;
+    height: 70px;
+    line-height: 70px;
+}
+
+.LiBtn:hover{
+    background-color: aliceblue;
+}
+#Show{
+    text-align: left;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 100;
+    color: #0a0a0a;
+}
+#ShowA{
+    height: 388px;
+}
+.EN{
+    font-size:20px;
+    font-weight: 500;
+}
+.ZH{
+    font-size: 13px;
+    color:rgb(119, 119, 119);
+    margin-left: 40px;
+    margin-top: 8px;
+}
+.ENA{
+    font-size:40px;
+    font-weight: 500;
+    padding-top: 200px;
+}
+.ZHA{
+    font-size: 13px;
+    color:rgb(119, 119, 119);
+    margin-left: 40px;`
+    margin-top: 8px;
+    display: none;
+}
+.Num{
+    font-size: 13px;
+    width: 40px;
+    line-height: 24px;
+    float: left;
+}
+#ul-Show li{
+    margin-top: 20px;
+}
+#ul-Btn-ShowA li{
+    width: 50%;
+}
+#Btn-ShowEN,#Btn-ShowZH{
+    font-size: 20px;
+    cursor: pointer;
+    width: 90px;
+    height: 60px;
+}
+#Statmant{
+    height: 500px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 250px;
+    font-size: 35px;
+}
+#SentenceNum{
+    font-size: 45px;
+}

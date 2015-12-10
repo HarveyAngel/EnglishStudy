@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="css/index.css" />
+    <title></title>
+</head>
+<body>
+    <div id="head">
+        <ul id="ul-head">
+            <li id="li-mainA">首页</li>
+            <li id="li-mainB">添加</li>
+            <li id="li-mainC">声明</li>
+        </ul>
+    </div>
+    <div id="mainA" class="main" oncontextmenu=''>
+        <div id="ShowA">
+
+        </div>
+        <ul id="ul-Btn-ShowA">
+            <li id="li-BtnEN" class="LiBtn">下一条</li>
+            <li id="li-BtnZH" class="LiBtn">中文
+            
+            </li>
+        </ul>
+    </div>
+    <div id="mainB" class="main" style="display: none">
+        <textarea id="Input-textarea" rows="70" cols="90"></textarea>
+        <ul id="ul-Input">
+            <li id="Sure" class="LiBtn">确定</li>
+            <li id="Add" class="LiBtn">添加</li>
+        </ul>
+        <div id="Show">
+            <ul id="ul-Show">
+            </ul>
+        </div>
+    </div>
+    <div id="mainC" class="main" style="display: none">
+        <div id="Statmant">
+            当前网站共收录：<span id='SentenceNum'></span>个句子
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/Sure.js"></script>
+<script type="text/javascript" src="js/Show.js"></script>
+<script type="text/javascript" src="js/Update.js"></script>
+<script type="text/javascript" src="js/ChangePage.js"></script>
+<script type="text/javascript" src="js/GetSentenceNum.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</html>

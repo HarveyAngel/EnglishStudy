@@ -1,0 +1,30 @@
+/**
+ * Created by a34524 on 15/12/7.
+ */
+$(document).ready(function(){
+    $("#Sure").click(function(){
+        Sure();
+    });
+    $("#Add").click(function(){
+        Add();
+    });
+    $("#li-BtnEN").click(function(){
+        Update();
+        Shows();
+    });
+    $("#li-BtnZH").click(function(){
+        $(".ZHA").attr("Check","0")
+        $(".ZHA").show();
+    });
+    $("#li-mainA").click(function(){
+        ChangePage("mainA");
+    });
+    $("#li-mainB").click(function(){
+        ChangePage("mainB");
+    });
+    $("#li-mainC").click(function(){
+        GetSentenceNum();
+        ChangePage("mainC");
+    });
+    ShowInit();
+});

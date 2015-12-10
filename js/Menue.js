@@ -1,0 +1,3 @@
+function Menue(){
+	$("#itemMenu").show();
+}
